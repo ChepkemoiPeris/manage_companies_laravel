@@ -66,8 +66,8 @@
                                     </form>
                                 </div>
                             </li>
-                            <button type='button' class='btn btn-secondary'> <a onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();" style="color:black" >Logout</a></button><br><br>
+                              <a class="btn btn-small" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();" style="color:black" >Logout</a>
                         @endguest
                         
                     </ul>
